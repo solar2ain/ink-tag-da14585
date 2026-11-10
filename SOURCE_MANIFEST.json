@@ -1,0 +1,1030 @@
+{
+  "schemaVersion": 1,
+  "scope": "DA14585 source snapshot",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 426,
+      "sha256": "970d2d01055dc296ba91a51a6ab2bdbe94b6d4089178b364e6d6038d7068baeb"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "LICENSES/GPL-3.0.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "Makefile",
+      "bytes": 158,
+      "sha256": "8cc0f3f1636d79fc1a8b0951cb97493b763b5a33a0cf5cac7c9eaf79a595cf26"
+    },
+    {
+      "path": "Makefile.signed",
+      "bytes": 165,
+      "sha256": "1c6f04796a161853f9e9807b83b2ca14d02d2a75c098e209b6985526280a9b33"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 414,
+      "sha256": "43a0875f3c6957b11ede0099e43e3624bbde519edf912e13e88a2a5ff0320ad4"
+    },
+    {
+      "path": "README.en.md",
+      "bytes": 10982,
+      "sha256": "cc4e047a73cdf3e5ceb643b90642c4d2150e08f18f581d8ca264545864b82268"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10536,
+      "sha256": "1b107928c39f8d38903d6b4fb32e112b2d356408504597eff10c2c28fc2c5dc6"
+    },
+    {
+      "path": "SOURCE_NOTICES.md",
+      "bytes": 1307,
+      "sha256": "3af27b9737557e3335ee6d77ba1d3bf582004ba4a4f841723799b976777c6839"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1888,
+      "sha256": "99eaeb7602896b4c99aecbe34159809afde311179c5e977994e58b623142f977"
+    },
+    {
+      "path": "build.ps1",
+      "bytes": 31533,
+      "sha256": "925ab411a484c65591efbf2f6189a8c735988679d9a1074a486d332b7079fc92"
+    },
+    {
+      "path": "docs/building.en.md",
+      "bytes": 6491,
+      "sha256": "b4bfee68b84b7efb3a772976b021b1221f55fb3fecda27bb72bc22c5dda2f071"
+    },
+    {
+      "path": "docs/building.md",
+      "bytes": 6674,
+      "sha256": "2fe96fbc59212536cb62244de10b699dd94529b08d2eae78a847e521a96cfd59"
+    },
+    {
+      "path": "docs/flashing.en.md",
+      "bytes": 5249,
+      "sha256": "749d7f9a575ed2116b95f977454efed7e5d3ca8bc978ca470df1b83f5810cd37"
+    },
+    {
+      "path": "docs/flashing.md",
+      "bytes": 5710,
+      "sha256": "baeda0f8f58b7354d66505870e4e6c2f58adb7a1ef8ef7c4132c57fb20efbb25"
+    },
+    {
+      "path": "docs/hardware.en.md",
+      "bytes": 5229,
+      "sha256": "41a98a672d9d9aad2fed397a29f626e82c1ca62b395779a230dbbab981a7ce60"
+    },
+    {
+      "path": "docs/hardware.md",
+      "bytes": 4818,
+      "sha256": "d39bb4c6fcedf2280fc1ac3599abeeeab330553b20f91779c9c18d2f954a280b"
+    },
+    {
+      "path": "docs/usage.en.md",
+      "bytes": 7125,
+      "sha256": "1bfa4ff94f7c9ff5eca5aa3bd6f9784fe53c851d855df2fa3dd55869ba793db1"
+    },
+    {
+      "path": "docs/usage.md",
+      "bytes": 7425,
+      "sha256": "c0076a1fc8afe233f13947ad9d3feec2dfa60c063b63a5fc499b1f3e4f317b82"
+    },
+    {
+      "path": "firmware/boards/boards.json",
+      "bytes": 3394,
+      "sha256": "2fe33d627842972fbfcef3b37b2275c8e3864547da51756bd82d3ec731997312"
+    },
+    {
+      "path": "firmware/boards/da14585_aesl.h",
+      "bytes": 5810,
+      "sha256": "80234d45ee21ae95a3072718ecbf351ded0fbc37ae7a5b4dd66df384737e7bb0"
+    },
+    {
+      "path": "firmware/common/ble/inktag_ble_address.c",
+      "bytes": 1791,
+      "sha256": "2fc0fb58a63eb3c3253a4e0271f6d77a9342557fd974a57190c2724977da1344"
+    },
+    {
+      "path": "firmware/common/ble/inktag_ble_address.h",
+      "bytes": 4279,
+      "sha256": "229bb0e4fc0f0914f8ada778b36107f8c9f1b02482db951083adb079f8689ea5"
+    },
+    {
+      "path": "firmware/common/ble/inktag_ble_identity.h",
+      "bytes": 2933,
+      "sha256": "262df0f6b3528e66908e3baf874fa880d1d3160a33e23f40a8626ce688a7e49a"
+    },
+    {
+      "path": "firmware/common/ble/inktag_ble_power.h",
+      "bytes": 348,
+      "sha256": "8eb916df34eb6470b755499abc5850be621dce895edf85aa58abee2879c59058"
+    },
+    {
+      "path": "firmware/common/ble/inktag_device_display_name.h",
+      "bytes": 2074,
+      "sha256": "e6eff422b622d91211292218419ebb060ce02b4e618f421fe9e83715090916f5"
+    },
+    {
+      "path": "firmware/common/epd/inktag_epd_commands.c",
+      "bytes": 1669,
+      "sha256": "40ac26f7b4b033d9b01a8341c2511a0898e24e07d34619e615994f9143184981"
+    },
+    {
+      "path": "firmware/common/epd/inktag_epd_config.c",
+      "bytes": 35569,
+      "sha256": "c99862fb5127e6b1d17312d66c1cb108f28d343d5bb3fb0ec1aa8bf8afbfae7d"
+    },
+    {
+      "path": "firmware/common/epd/inktag_epd_config.h",
+      "bytes": 8222,
+      "sha256": "15713639283e3db4e66b24c93e5b426abc6a82f4a7e3f4751175b3d75470122e"
+    },
+    {
+      "path": "firmware/common/epd/inktag_epd_driver.c",
+      "bytes": 4937,
+      "sha256": "2995227ef7be366dbb9c197a31780eac87f088caf8263ad6dd5afa9a226ccab9"
+    },
+    {
+      "path": "firmware/common/epd/inktag_epd_driver.h",
+      "bytes": 14320,
+      "sha256": "e1ec2bdef668509d402df90899dd7f0c90c20e5f67358d9e1308f282c5026f53"
+    },
+    {
+      "path": "firmware/common/epd/inktag_epd_jd.c",
+      "bytes": 22527,
+      "sha256": "c539219f50b3603f969dcce3e4202d8af50ad9eb1f42d1f7e5d2a77f560100e3"
+    },
+    {
+      "path": "firmware/common/epd/inktag_epd_runtime.c",
+      "bytes": 4638,
+      "sha256": "4b876f5975fee5ff7e2246550bc95e8716ea71de89b86af845c493e72cac21d5"
+    },
+    {
+      "path": "firmware/common/epd/inktag_epd_screen.c",
+      "bytes": 19713,
+      "sha256": "e4eed3b1403a41a1c86ad10d1fbe62c367d023090c019af78ff18c166313443c"
+    },
+    {
+      "path": "firmware/common/epd/inktag_epd_screen.h",
+      "bytes": 7963,
+      "sha256": "4636d4cda6d012d58cbbad698c6c2d597404a777257dd9c7dd0586e312ec9546"
+    },
+    {
+      "path": "firmware/common/epd/inktag_epd_ssd.c",
+      "bytes": 25548,
+      "sha256": "8074619e25a45b43b8c6536aca06c700df0da3b7cba6584540973ba1daf84aca"
+    },
+    {
+      "path": "firmware/common/epd/inktag_epd_temperature.h",
+      "bytes": 4211,
+      "sha256": "55c6755549102037fa7f59fc8b1a7ba31965ec4c1de8e2f9d1b62b844f26948d"
+    },
+    {
+      "path": "firmware/common/epd/inktag_epd_uc.c",
+      "bytes": 15620,
+      "sha256": "7e513f31d578af338cd7d40626a5f74981175ef0f7402d5bb2efe89c4d026135"
+    },
+    {
+      "path": "firmware/common/epd/inktag_epd_wait_policy.h",
+      "bytes": 469,
+      "sha256": "682ab99e096e1a4d039b8cfea8b37a285ad5c76d94042cc2a77343de6bd345ad"
+    },
+    {
+      "path": "firmware/common/epd/inktag_page_cycle.c",
+      "bytes": 2956,
+      "sha256": "2ab2fa86894f1f54690c42212a8699ab1245e9c410cf6122e2f34b890ed0cbbb"
+    },
+    {
+      "path": "firmware/common/epd/inktag_page_cycle.h",
+      "bytes": 2671,
+      "sha256": "4a20ad58bbb71919f6a7d371b192afbdcfef98d69347f2a651bc3e73e762b039"
+    },
+    {
+      "path": "firmware/common/epd/inktag_protocol_v2.h",
+      "bytes": 17287,
+      "sha256": "791b01cac1aaa8c7abfd7b66bba76471f95f706be76d795e815f37cbf125b65a"
+    },
+    {
+      "path": "firmware/common/epd/inktag_version.h",
+      "bytes": 460,
+      "sha256": "48269040e84a4a38da4e06b4a45b2c279ae24e69c9ad63d293d4c1563a57ec01"
+    },
+    {
+      "path": "firmware/common/gui/Adafruit_GFX.c",
+      "bytes": 60091,
+      "sha256": "69648b2e914ad5f4a36ebea702bcf6c3e32784cadc89196af40d6fb86b9614a5"
+    },
+    {
+      "path": "firmware/common/gui/Adafruit_GFX.h",
+      "bytes": 7673,
+      "sha256": "5ed8a4d4a6f7d5cf671850e78451741fee06267ac1bf6fcb38e8e3f81b35721d"
+    },
+    {
+      "path": "firmware/common/gui/inktag_calendar.c",
+      "bytes": 10148,
+      "sha256": "37d36827677551eb441e98dfdbbaa06094999febf85ad580f9b8990dc1fdf11d"
+    },
+    {
+      "path": "firmware/common/gui/inktag_calendar.h",
+      "bytes": 1824,
+      "sha256": "1841b7539631d748f0298b1efc300c423c0acb6bd4a9dafea8017842f91ebb16"
+    },
+    {
+      "path": "firmware/common/gui/inktag_gui.c",
+      "bytes": 8630,
+      "sha256": "08daebb5f1806f02a005f27b2dec47bc4d6bc13dbead5ac223fcf5f1769ea854"
+    },
+    {
+      "path": "firmware/common/gui/inktag_gui.h",
+      "bytes": 3866,
+      "sha256": "a29c1f5fc1f87be61ee70d3122e1c5c15974e3c3545a02813a8f1420db0b7d5f"
+    },
+    {
+      "path": "firmware/common/gui/inktag_gui_asset_package.c",
+      "bytes": 5473,
+      "sha256": "0732d02667c882d6ddd15095f072d0a7a979d76a2ecec8326f4adcb281dbd60b"
+    },
+    {
+      "path": "firmware/common/gui/inktag_gui_asset_package.h",
+      "bytes": 1857,
+      "sha256": "4480ff071019d2258b7a5abf90e5144ef9db54c254fc422f63d7d852953f3d97"
+    },
+    {
+      "path": "firmware/common/gui/inktag_gui_assets.h",
+      "bytes": 1259,
+      "sha256": "223e726adb479d749dca0002deffa83e69dc7b77236658bf43c5f4dc2ebb1209"
+    },
+    {
+      "path": "firmware/common/gui/inktag_gui_calendar.inc",
+      "bytes": 2557,
+      "sha256": "c7fe9c2a0abf74bcac887d00ab43424cafed339b70a0b5456d70faaff1e04ca8"
+    },
+    {
+      "path": "firmware/common/gui/inktag_gui_default.inc",
+      "bytes": 79558,
+      "sha256": "a4dceb9811fa73b3c05e8028092be35e518c7c0261e5bd7a73a44c5069918b41"
+    },
+    {
+      "path": "firmware/common/gui/inktag_gui_device_qr.h",
+      "bytes": 1729,
+      "sha256": "9acc461c4be2ba79821763c2b84268d1adb0038c54292c6a877178ee16bdf569"
+    },
+    {
+      "path": "firmware/common/gui/inktag_gui_device_qr_asset.c",
+      "bytes": 312,
+      "sha256": "dbcb8b02141c907d607248a60d27f2f2b9c0d29e74bd8f93d7402acdf6c13cfe"
+    },
+    {
+      "path": "firmware/common/gui/inktag_gui_fonts.c",
+      "bytes": 29105,
+      "sha256": "238a197ac2b083914bfc7f9a831cfeff09dd53341a3c5c695d81ae53a6c95579"
+    },
+    {
+      "path": "firmware/common/gui/inktag_gui_fonts.h",
+      "bytes": 4209,
+      "sha256": "b83bd9c8a0f21f13741b1586890803f6277ed6b13b9c24dc4dad4b31e899ec98"
+    },
+    {
+      "path": "firmware/common/gui/inktag_solar_terms.inc",
+      "bytes": 1174,
+      "sha256": "33be14dbe87972144bc3d6b91fe0aba9c4070eae8ba225a6d70a6a6ae6e1e717"
+    },
+    {
+      "path": "firmware/common/gui/licenses/lunar-calendar-MIT.txt",
+      "bytes": 1063,
+      "sha256": "571591c55f284499f8f6167a3660177531ad2ce0f760a4e58f69ea42b1ac71c0"
+    },
+    {
+      "path": "firmware/common/gui/u8g2_font.c",
+      "bytes": 17887,
+      "sha256": "d404cc0ec4d1534a6a7c5b0e2be1c5997d187f609ea248a8f86da72faddd7e2a"
+    },
+    {
+      "path": "firmware/common/gui/u8g2_font.h",
+      "bytes": 5194,
+      "sha256": "1c0026d88011897eec83c6f40e31bfa0f1675c694f2949f1593376bcb10bdb0a"
+    },
+    {
+      "path": "firmware/common/input/inktag_input.c",
+      "bytes": 4323,
+      "sha256": "b17047cce0aacfb0e94fb0953fc22856c33d1fdd7654bbfdca6c75efae3b2aa9"
+    },
+    {
+      "path": "firmware/common/input/inktag_input.h",
+      "bytes": 2394,
+      "sha256": "1b305b8c55191c39284f7ddfa9a0c9bd8b17e93a94977525da956b4680a71daa"
+    },
+    {
+      "path": "firmware/common/input/inktag_resource_name.c",
+      "bytes": 4732,
+      "sha256": "947caf5ba64b10ecad929a516dbf0a8f7e13c2e1abbfe54bf40ad429ec43e843"
+    },
+    {
+      "path": "firmware/common/input/inktag_resource_name.h",
+      "bytes": 630,
+      "sha256": "2756d4798944868dc4411cb3cfabdd801cafc02feb519a45544ec50744367c35"
+    },
+    {
+      "path": "firmware/common/lifecycle/inktag_lifecycle.c",
+      "bytes": 3666,
+      "sha256": "3395d46b3ecbb390f05226470e1c72142b613971d89b628365969c17d97d0088"
+    },
+    {
+      "path": "firmware/common/lifecycle/inktag_lifecycle.h",
+      "bytes": 1126,
+      "sha256": "ea7a173d69fc20dbc65ebcdfd0d23c986b677a3b8e1573ab638a92ff91edf47b"
+    },
+    {
+      "path": "firmware/common/ota/inktag_ota_reject.h",
+      "bytes": 3794,
+      "sha256": "d70fbbb2770bca431c1960eb60c46514e4e647539f73b9e230ec9da9e0b43769"
+    },
+    {
+      "path": "firmware/common/ota/inktag_recovery.c",
+      "bytes": 12013,
+      "sha256": "4a938fe3183080284c6b826eb2b4645b22d44ecd32da91eafc8377e7f9298096"
+    },
+    {
+      "path": "firmware/common/ota/inktag_recovery.h",
+      "bytes": 3237,
+      "sha256": "262a9cf483504aa74704db7fe6662f622f74842f057a43ff70410d150416c9a9"
+    },
+    {
+      "path": "firmware/common/ota/inktag_recovery_version.h",
+      "bytes": 343,
+      "sha256": "ae43e35d81f09b1ad423cbc15646762af9482520b736e3c53c559f95dabcf2bc"
+    },
+    {
+      "path": "firmware/common/power/inktag_power.c",
+      "bytes": 2056,
+      "sha256": "6b16f995cc6473ac646c80aac91c49d8dbe952e81b40c8a2b379df0583dc4aa7"
+    },
+    {
+      "path": "firmware/common/power/inktag_power.h",
+      "bytes": 5917,
+      "sha256": "515d658249944d11bab61d7118bfa17ac31dd3eae6e518e98d764a36ad2d361a"
+    },
+    {
+      "path": "firmware/common/protocol/inktag_device_status.h",
+      "bytes": 361,
+      "sha256": "431fbb058b117c79d590ba698142495b99332c43879eec6863320455a0f48b87"
+    },
+    {
+      "path": "firmware/common/protocol/inktag_display_settings.c",
+      "bytes": 3840,
+      "sha256": "089892c087914571d74244b8a4a0336a1de8f7b0659ad02c0525e2aa91f948f1"
+    },
+    {
+      "path": "firmware/common/protocol/inktag_display_settings.h",
+      "bytes": 1303,
+      "sha256": "8ba84049aaf7ef86f7d49fcd0f96b449442e3e36716dacf9127407480adbb603"
+    },
+    {
+      "path": "firmware/common/protocol/inktag_image_upload_v5.c",
+      "bytes": 1596,
+      "sha256": "dc725674557bf9b836b2b130c102f05c4d60bdbd05925bea065e8c8876e37a5e"
+    },
+    {
+      "path": "firmware/common/protocol/inktag_image_upload_v5.h",
+      "bytes": 880,
+      "sha256": "50778fdfb0801bd033a85aa91727c36d312b2c098f8c0ce6343c7a856f40e325"
+    },
+    {
+      "path": "firmware/common/protocol/inktag_packbits.c",
+      "bytes": 2611,
+      "sha256": "1d775adca4c2874cf5a04a5a386f832463bbf3b6b916778252e233909f0546f9"
+    },
+    {
+      "path": "firmware/common/protocol/inktag_packbits.h",
+      "bytes": 1197,
+      "sha256": "d58302ed9c16c8df5ca0f32b2f31c2a8a765b26686db7c3d475b6357d9e5c8a9"
+    },
+    {
+      "path": "firmware/common/protocol/inktag_pin_config.c",
+      "bytes": 2554,
+      "sha256": "4ffaaba70612633eeae43c8187bc6589324ec7b64b7b9fee4960af6758ba9cbc"
+    },
+    {
+      "path": "firmware/common/protocol/inktag_pin_config.h",
+      "bytes": 1822,
+      "sha256": "44f653eaa89ca7a0abb8510d4c68f159c1a3a6072a3f1d13f8b960d09365773c"
+    },
+    {
+      "path": "firmware/common/protocol/inktag_protocol_core.c",
+      "bytes": 9320,
+      "sha256": "d666289941de11e397e6d06fae73aa519bc86a679ec0b1cad1ff98f060274f03"
+    },
+    {
+      "path": "firmware/common/protocol/inktag_protocol_core.h",
+      "bytes": 3486,
+      "sha256": "dd875ff410a7778ac2ff7a9848279d0ae0abf98a2e368838f326bb3f539bda3b"
+    },
+    {
+      "path": "firmware/common/protocol/inktag_release_v1.h",
+      "bytes": 3995,
+      "sha256": "b2b009e51723ff7fcb753667969152ea8c2345d6243787889e36917a2320f75c"
+    },
+    {
+      "path": "firmware/common/security/inktag_access.c",
+      "bytes": 3568,
+      "sha256": "fe94163e3368c59e63aedfd9fb5ca6c1645b12ad1539863140d580fffff40cbc"
+    },
+    {
+      "path": "firmware/common/security/inktag_access.h",
+      "bytes": 3079,
+      "sha256": "21a64661d0679a9671a4b67b64558e1395247e12c1dfeaa8440fc90543dc3809"
+    },
+    {
+      "path": "firmware/common/security/inktag_brand_overlay.c",
+      "bytes": 13151,
+      "sha256": "f23e230a7f7b80242ed1b5b9435132f8bd88d91168febf25401209a515a73bed"
+    },
+    {
+      "path": "firmware/common/security/inktag_brand_overlay.h",
+      "bytes": 1719,
+      "sha256": "c263325f2d6e20b08b1012a0bab9c74e79281b7a3c575dd76433bbf4177460ba"
+    },
+    {
+      "path": "firmware/common/security/inktag_firmware_signature.h",
+      "bytes": 1850,
+      "sha256": "6497023f299ffbf8a007b531035005f325ae9a9c15ac170de9334dae9a95edb7"
+    },
+    {
+      "path": "firmware/common/security/inktag_image_quota.c",
+      "bytes": 174,
+      "sha256": "f506808324b2e314982fee18f42c3c9c0370f101ab91acc042249f1d54c08f55"
+    },
+    {
+      "path": "firmware/common/security/inktag_image_quota.h",
+      "bytes": 323,
+      "sha256": "135335a384c1572e299cd5c9deb8f2bcc59c7592eab4ff75e62366b430cb4163"
+    },
+    {
+      "path": "firmware/common/status/inktag_status.h",
+      "bytes": 6610,
+      "sha256": "9fd6c4cd1714fdf343b7978069ba5830e737f8fdca517707410efd5bb34cc949"
+    },
+    {
+      "path": "firmware/common/status/inktag_temperature_wire.h",
+      "bytes": 1145,
+      "sha256": "791b46791b700bc57a2a3b4ec887725affa3a9330364c51bcf9dd10e88292355"
+    },
+    {
+      "path": "firmware/common/storage/inktag_image_fixed_store.h",
+      "bytes": 5076,
+      "sha256": "05cbb68ad086e2352e66d62db4e9bd804bac27f9dff60e8d945c5faedf2d4412"
+    },
+    {
+      "path": "firmware/common/storage/inktag_image_fixed_store.inc",
+      "bytes": 20745,
+      "sha256": "4bba86789b70fe746d6e96e1da6fbfb66fb7a7daf7003078b8f08549935cbc97"
+    },
+    {
+      "path": "firmware/common/storage/inktag_settings_journal.c",
+      "bytes": 22846,
+      "sha256": "820c7185bd09e892d5b5073f0a4a40086ae701a183b86f2ecbe131fdce458b79"
+    },
+    {
+      "path": "firmware/common/storage/inktag_settings_journal.h",
+      "bytes": 3699,
+      "sha256": "fd52a5d9ecf22903e1ef72ef2b6820086bb1ac190bacb0aab35b50058bda55d9"
+    },
+    {
+      "path": "firmware/common/storage/inktag_settings_records.h",
+      "bytes": 5473,
+      "sha256": "c9384427347d45b977f0a615a69acf7e1f4c113bad2631a874e5e7f8fd359f36"
+    },
+    {
+      "path": "firmware/common/time/inktag_wall_clock.c",
+      "bytes": 2500,
+      "sha256": "43a09f980342b0a35291b25df6a3f76956c8f210813f7041b72c2cc5d6627a3c"
+    },
+    {
+      "path": "firmware/common/time/inktag_wall_clock.h",
+      "bytes": 2355,
+      "sha256": "952e799c7b0876f97073748be1dec07b4211d793137dbf0818418aab616f6a19"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_ble_address.h",
+      "bytes": 1875,
+      "sha256": "fc8b0eb749779e8c81c30a26c0fa2cc3d378c129d8a58df39d300be0c2e7225c"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_ble_sdk_address.h",
+      "bytes": 885,
+      "sha256": "25fef60b41afaf50b0b8bedd8321242842dcc7e1ea0f9f99633c143433b3fd42"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_capabilities.h",
+      "bytes": 1199,
+      "sha256": "da746fd58803e4eb9eeef7747d75ad05d11a95896053ee5a1543bca81c2ac10a"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_clock.h",
+      "bytes": 1357,
+      "sha256": "417145bee1d7f041817f661072ca1d21bc375b0794d7e82471bf0b86101198e3"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_default_qr.h",
+      "bytes": 853,
+      "sha256": "295d52248aa17eea4634f5f264ec8d95d5991d8dfc146824dbcea891158512f7"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_external_assets.c",
+      "bytes": 10811,
+      "sha256": "a5f0ce9e124de95ae17fa434a70d133572d9dc37876d44e4214afb5884ebea9d"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_fixed_slot_io.h",
+      "bytes": 2855,
+      "sha256": "28634bdede825154a929fcfc4a7f1c1e8bfd632588989b3cb53ba4317ee90834"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_ghost.inc",
+      "bytes": 3044,
+      "sha256": "b4899c451884e87ac4a2d728387992fc9ce83e9db349e8d3a56eddf21eb42c20"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_health.c",
+      "bytes": 4623,
+      "sha256": "339197534640d6e1c9cdf747683a6595175f03e92ec0277046368ec69aca700a"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_health.h",
+      "bytes": 795,
+      "sha256": "86a09607d9f562008de2492af27e5bf693aa14a82b7d114307a4546ec02d7903"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_image_store.c",
+      "bytes": 6765,
+      "sha256": "370d3190fb5154dec7786091738d1ed4fc2946a514e33b66e85fbe8a57436541"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_image_store.h",
+      "bytes": 1169,
+      "sha256": "36502447d1e2cc8978a1d671b8cdcb95eae7691a683fb1f43b8b79cd51822d7a"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_notifications.inc",
+      "bytes": 3415,
+      "sha256": "84ca4804fa54751a3734dba30c98c52c711f9bfb488cfacfd58b69cb9e23b129"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_ota_policy.h",
+      "bytes": 1328,
+      "sha256": "f0edd0bdf2ab84a62174e444c9f4a517f08722802733a7cdc7dd467dc6244007"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_ota_public_key.h",
+      "bytes": 855,
+      "sha256": "fe9ba6dd4bc2f2d46b373ca094808fc04990144a4b5d99bd2dfd66dddae7d66e"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_ota_security.c",
+      "bytes": 14794,
+      "sha256": "ba885349d1f5faaf0b7c9cb00e075fd0b1c739d09dccbf3fc047cf9ef9052e9f"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_ota_security.h",
+      "bytes": 1274,
+      "sha256": "5bd4a64b0b6af0b2fd7e45cba256bb6406bc9dc7cac02238fd140b6912a3228e"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_pins.c",
+      "bytes": 3778,
+      "sha256": "0620b8e6c3798df1dfa1212cbf4d8dc51d7e6c57bb8da249deced2831ec00576"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_pins.h",
+      "bytes": 1030,
+      "sha256": "81f4434dc8902edd5bd83c58309ffc29f6966244ffedd2b709c4f9275a4ad0fe"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_protocol_v2.inc",
+      "bytes": 68125,
+      "sha256": "5e838f092d8ae1450544bb04e51273118d1143cd758214c603ccc7270228975a"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_recovery.c",
+      "bytes": 23478,
+      "sha256": "68eb0fcbd4c75bca29ff7988e32122429adedbab36601983aeaf03758d3c058e"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_recovery.h",
+      "bytes": 2702,
+      "sha256": "4f355e5d70c443e88c1e3cdebbb09e2ecd12514dcb1ffe916dcb2899791b218a"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_recovery_resume.inc",
+      "bytes": 4923,
+      "sha256": "5bf586991a2c0d40ce07a3a2a5c2d5a4327dd5f125f3f0397c97ad5a2f2830cc"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_reset_trace.inc",
+      "bytes": 4514,
+      "sha256": "0a7fd8ec098f6b032f4ba25ff41646882ec32422d83dc5d576a1e44b95ed942d"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_runtime_scratch.h",
+      "bytes": 694,
+      "sha256": "e0e755278bbc782830b5f861e1302786a182c40f13856a9c7630ed9fb4d01ac0"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_tests.inc",
+      "bytes": 5957,
+      "sha256": "515dd8d7c91bb29213347f3a3ed17453f5b32807318b8829cc61b6fd4d5d4b01"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_transfer.h",
+      "bytes": 477,
+      "sha256": "99b25d2eadf9b62df6bbe139c62c38c5eccea4354a35543827f2e62104254bd7"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/inktag_da_transfer_write.inc",
+      "bytes": 6132,
+      "sha256": "4ae51d699b58bed92e7d88b79613651e2d0b613a625ac984f0c2615c08fa57e2"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/sdk_config.h",
+      "bytes": 101,
+      "sha256": "f650fcfb1dd789931f94d969459baa5aef9ccdd30a6a445002220fc717030a24"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/user_custs1_def.c",
+      "bytes": 1953,
+      "sha256": "400a9d9381a760c5bbac8e84a777d588af6287211ab31d7b86c6198ddde575cb"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/user_custs1_def.h",
+      "bytes": 693,
+      "sha256": "840e492cd6255b2c9c189b68a07a6fd1f4ef84e403ea10d334a8e575c1215578"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/user_custs1_impl.c",
+      "bytes": 69480,
+      "sha256": "41ce39b5e59045e172f525ca019a5d820084642495c659a579f344a7e24a55db"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/user_custs1_impl.h",
+      "bytes": 1133,
+      "sha256": "935f8d363d12e3870344b7f9c4e8b12eaf6ff62b0f87f3ef4aa5b3baf1f8bed0"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/user_peripheral.c",
+      "bytes": 8975,
+      "sha256": "d7bfa00dac2353d0f10d69a54e1a6e8a88b87e6c39bd539fb00244255566106b"
+    },
+    {
+      "path": "firmware/ports/dialog/common/src/user_peripheral.h",
+      "bytes": 1177,
+      "sha256": "39f9e22c1b3aea4c6c8bc0b832a467339679d29c1a77cc47d9150dd20c8ef3b9"
+    },
+    {
+      "path": "firmware/ports/dialog/da14585/inktag_secondary_bootloader_585_armclang.sct.in",
+      "bytes": 1326,
+      "sha256": "f909a6e23788da28f5414636bd90ec9099ec1ff73b4dd1b2e186be7b29051bd5"
+    },
+    {
+      "path": "firmware/ports/dialog/da14585/inktag_secondary_crc32.c",
+      "bytes": 911,
+      "sha256": "cb37e2f9e219ccf7b31c568a8b8b6118ff55e9c21b1077426f2779c4650ba5d3"
+    },
+    {
+      "path": "protocol/README.md",
+      "bytes": 3278,
+      "sha256": "072e582986e8a9f36f4fd082a75d3c5ef65bc76d278d02e480b31fd1621fab96"
+    },
+    {
+      "path": "protocol/da-ota.md",
+      "bytes": 2560,
+      "sha256": "094b3a0b6c204fb598c1913a4a26b854ab497f39e29dfa399a4fe34927449931"
+    },
+    {
+      "path": "protocol/da-tests.md",
+      "bytes": 3367,
+      "sha256": "0d04336c1b62e624815db78862b0f932ecfe3a37e91718eee775d22b53869c33"
+    },
+    {
+      "path": "tests/da_host_helpers.py",
+      "bytes": 2015,
+      "sha256": "d7cf8d8fcfe741db9235eaf2b41f0e4a3fdf241beea8efc5b97380c0054a15dc"
+    },
+    {
+      "path": "tests/fixtures/lunar_calendar_external.txt",
+      "bytes": 1201,
+      "sha256": "ac4d7f7b2194e5b3d1ba2ab7d45eb8eed5e1f272144c93bdc868676a52dcf6ee"
+    },
+    {
+      "path": "tests/fixtures/lunar_calendar_probe.c",
+      "bytes": 2588,
+      "sha256": "b3704eff273fbe7db9c4277a289f966ce45f482e2e988b6055de90fcecc30443"
+    },
+    {
+      "path": "tests/mocks/board-family/inktag_board.h",
+      "bytes": 213,
+      "sha256": "261d7f88ab86e3da43a34b553d176e7fc9372cb0bb958c779c6728e4bb1c6099"
+    },
+    {
+      "path": "tests/mocks/dialog/sdk_config.h",
+      "bytes": 95,
+      "sha256": "b86c5c759f713dcfeb060486897ffdad4fe6ab7049ef7aae8d03781d578a27d2"
+    },
+    {
+      "path": "tests/mocks/dialog/spi_flash.h",
+      "bytes": 552,
+      "sha256": "c1a5da6994c4d2cb39cd69c39dccab528912d0f9180038d343fe84c5cc58589b"
+    },
+    {
+      "path": "tests/test_da_bounded_tests.py",
+      "bytes": 14334,
+      "sha256": "74ac0b60af4a09201ca19e3da2cc3e697a53b1c6cc584311a0b9ed87b7d5ebea"
+    },
+    {
+      "path": "tests/test_da_capabilities.c",
+      "bytes": 2143,
+      "sha256": "d2ca693cb241d3a0437e1b169f051f37bb857446176a38d36c56e38197b50f2b"
+    },
+    {
+      "path": "tests/test_da_gui_asset_cache.c",
+      "bytes": 8929,
+      "sha256": "f3fef1ffd30177d78c6e1d5e2aba98cade65b8753edd35fe59f730c1b40d682b"
+    },
+    {
+      "path": "tests/test_da_image_store.c",
+      "bytes": 15657,
+      "sha256": "978bd3ddf66a355d196d93e25e47cdffc38a2a45fe10769daea7ad61004c36b0"
+    },
+    {
+      "path": "tests/test_da_package_full.py",
+      "bytes": 7199,
+      "sha256": "806cbbf50fe853333d7d920c11775820627ac75aef2e1e80d63b75a5f4f105ba"
+    },
+    {
+      "path": "tests/test_da_resource_name.c",
+      "bytes": 1973,
+      "sha256": "c4be8a2e109a4bfd88d274cdeff23a4ce5d9c44cc06b9350caa9da89ca063bc5"
+    },
+    {
+      "path": "tests/test_da_settings_journal.c",
+      "bytes": 18888,
+      "sha256": "59f1b1fb04a27678acd4f5e3a9ba0d94eaa02652dd512ef69d3e5efa1b26fcaa"
+    },
+    {
+      "path": "tests/test_da_ssd1683_full_timeout.py",
+      "bytes": 6583,
+      "sha256": "116f88ebc8b2c4bf79237826934dc52ca7dcd9625b8f491957601c41c4fa5cdf"
+    },
+    {
+      "path": "tests/test_gui_full_frame.c",
+      "bytes": 34501,
+      "sha256": "2a0dd2d86cbcb46117331f45ad4144425a1824729ba90e5214f5d361609a828f"
+    },
+    {
+      "path": "tests/test_inktag_brand_overlay.c",
+      "bytes": 18274,
+      "sha256": "6b7176c113794abde04158c5b4056230a86d71950c53b46b97607d34a5ebf6c8"
+    },
+    {
+      "path": "tests/test_inktag_gui_asset_package.c",
+      "bytes": 3551,
+      "sha256": "a44bfb35573a430824e184d311d91141dbb247fc04123bd04e5563e8896f74b4"
+    },
+    {
+      "path": "tests/test_inktag_packbits.c",
+      "bytes": 2581,
+      "sha256": "4575da8538ebed4bbb58c797a7c420b7e6b278c455ea887730c9aa4bfa688b06"
+    },
+    {
+      "path": "tests/test_iso_week.c",
+      "bytes": 1738,
+      "sha256": "f02d5a6eff6996dfee33305f675a0f300fa6235b3a4060186c511ef52bb82d00"
+    },
+    {
+      "path": "tests/test_solar_terms.py",
+      "bytes": 3413,
+      "sha256": "638482eaddf8ecc5825585fef4f98438797c97b96505fdd4c616b63b5cf08945"
+    },
+    {
+      "path": "tests/test_uc8xxx_compact_traces.c",
+      "bytes": 3581,
+      "sha256": "9456cab11acad11a3161f9f0afdfc7d85b337ad1d4b440e6747afa4c0ef45ddc"
+    },
+    {
+      "path": "tools/build/build_inputs.py",
+      "bytes": 5432,
+      "sha256": "5088a41e1c1097f843ebdb8c4a0ef2a9cdc06ad7d022d7c172ba89ab87994d3f"
+    },
+    {
+      "path": "tools/build/check_publish.py",
+      "bytes": 4972,
+      "sha256": "346189407413a2459c7e165d1e575f7bb5da6758f643cd93a503d4cca632e18e"
+    },
+    {
+      "path": "tools/build/export_source.py",
+      "bytes": 16017,
+      "sha256": "36a157959613f563c8b575814f46d7c824f1fc6fa109372817c72107a36e46ec"
+    },
+    {
+      "path": "tools/build/host-tests.json",
+      "bytes": 6034,
+      "sha256": "6ccbb3ec4145d578f115ceba407819d9365b68e74966ca98057d18a5a1dd1c61"
+    },
+    {
+      "path": "tools/build/native-process.ps1",
+      "bytes": 2313,
+      "sha256": "11c98db217d141375ce7f2cceeb623c90ba58fa73eeb74792bb06cb275ce6131"
+    },
+    {
+      "path": "tools/build/ota_policy.py",
+      "bytes": 1904,
+      "sha256": "9c18af7b2275fe478d05cf15054e6c4587366369ab010fdfa3f9aa34fde5c625"
+    },
+    {
+      "path": "tools/build/package_full.py",
+      "bytes": 10594,
+      "sha256": "8e057f8e255e7a61732a68fd9737072190daf70e3e25a403aac6999e03a1d0db"
+    },
+    {
+      "path": "tools/build/package_ota.py",
+      "bytes": 2962,
+      "sha256": "619b5b1fd997ef5784b34c3b83f1b68d63ca8239376998bca20293dcc084c415"
+    },
+    {
+      "path": "tools/build/run_host_tests.py",
+      "bytes": 2454,
+      "sha256": "c952a5aeee278c26b2d14fff82f78139f2f76594085eb1341442bc15028b41c0"
+    },
+    {
+      "path": "tools/build/source-files.json",
+      "bytes": 9842,
+      "sha256": "74121fcda6f56d99bc665f12600767df1714dd7533116efeb1fd5e3547845c4c"
+    },
+    {
+      "path": "tools/build/source-make.inc",
+      "bytes": 552,
+      "sha256": "fe56ee028720dfd08be3c5ab18b08f8b8b9ac5334e94fc8cbf696560763ae44d"
+    },
+    {
+      "path": "tools/calendar/README.md",
+      "bytes": 1216,
+      "sha256": "639299558f599b0f403b75df0d6e3170f0865ebe1b73b5de849fc296134ec63e"
+    },
+    {
+      "path": "tools/calendar/generate-solar-terms.py",
+      "bytes": 5307,
+      "sha256": "50eb63c1f59edc9f9495712e93860d992c9d13fc85597ab7c96d20c7c0c787a0"
+    },
+    {
+      "path": "tools/calendar/requirements.txt",
+      "bytes": 74,
+      "sha256": "b77d9b345e9cf4cd51ad0e572c1dde4b8d7a4ef8214e22224c8a49a0671ec8bf"
+    },
+    {
+      "path": "tools/calendar/solar-terms-2000-2050.csv",
+      "bytes": 15116,
+      "sha256": "f496ab67b98294c541bfc24aa3e19200a426807c779b0e3f953422b8ebc85861"
+    },
+    {
+      "path": "tools/calendar/solar-terms-source.json",
+      "bytes": 951,
+      "sha256": "58a4986e97ca6a8a99fd2d6eabd91fed3493512c7612ccebead6417038b3d077"
+    },
+    {
+      "path": "tools/hardware/da14585-full-state.py",
+      "bytes": 9220,
+      "sha256": "771f9d12483e6883e46aefdf10ec3a7dd741df17ce2742c99ae0be665a9e3973"
+    },
+    {
+      "path": "tools/hardware/da14585-image-verify.py",
+      "bytes": 10011,
+      "sha256": "8895fa8c806b83bfa87aeb3a97f1809d6d46718499834abbb7e744e760e8896f"
+    },
+    {
+      "path": "tools/sdk/da_sdk_workspace.py",
+      "bytes": 11987,
+      "sha256": "bc416b2174068e35ff4adb5cff83b115a9c80d1c3ecf72dce9e9b68a5e067a48"
+    },
+    {
+      "path": "tools/sdk/materialize-dialog-port.py",
+      "bytes": 131443,
+      "sha256": "824b843838c16a3e2186192643070529fa2f546d12be39e97a00efccb08b719d"
+    },
+    {
+      "path": "tools/sdk/package-gui-font-assets.py",
+      "bytes": 4459,
+      "sha256": "0fd98faff025a72f69702caabdbfd859e95ade3c65ecbab6ca83bf76b89ea6d8"
+    },
+    {
+      "path": "tools/version/sync-version.py",
+      "bytes": 3333,
+      "sha256": "beb24902067bb767056f092627811448215f0027aa66177c1fa950d53e22c40b"
+    },
+    {
+      "path": "version.json",
+      "bytes": 192,
+      "sha256": "d0cc82a9d9660a182f764df335e20c52fca24ec602d1458acf6f83fb178c3c60"
+    }
+  ],
+  "projections": [
+    {
+      "path": ".gitignore",
+      "rule": "da-source-ignore-v1",
+      "inputGitBlob": "4aaec168bfd0dc845f8dff3d144d7fd0ce62e67a",
+      "inputSha256": "1ca0afba288cf25f942ef1151798c7235b89e7be5a53aa4d1f89d3974c7f6f68",
+      "outputSha256": "970d2d01055dc296ba91a51a6ab2bdbe94b6d4089178b364e6d6038d7068baeb"
+    },
+    {
+      "path": "firmware/common/epd/inktag_epd_driver.h",
+      "rule": "da-source-no-e6-v1",
+      "inputGitBlob": "d29a35143d2e9eec3b82228ca2e8e46da13f21d6",
+      "inputSha256": "04947d602a0894be431a100f39c6c6a1af4d34e78ba8f6b2b5d4b345029ebc87",
+      "outputSha256": "e1ec2bdef668509d402df90899dd7f0c90c20e5f67358d9e1308f282c5026f53"
+    },
+    {
+      "path": "firmware/common/epd/inktag_epd_jd.c",
+      "rule": "da-source-no-e6-v1",
+      "inputGitBlob": "0f2893dde9ebe8a4733b3325ff2ceb63383b6224",
+      "inputSha256": "6c642cbf25b88db3bdf0095cf541b3855b9a8ee9bd54cbe3deecdae52649730b",
+      "outputSha256": "c539219f50b3603f969dcce3e4202d8af50ad9eb1f42d1f7e5d2a77f560100e3"
+    },
+    {
+      "path": "firmware/common/epd/inktag_epd_runtime.c",
+      "rule": "da-source-no-e6-v1",
+      "inputGitBlob": "933f87e6ed0af5f681a66038e11c66c63ec55dc3",
+      "inputSha256": "619a15884c988cf3ae0c6e5a6abfb8db1f16ceebb89e341c0959a3c85731ad1a",
+      "outputSha256": "4b876f5975fee5ff7e2246550bc95e8716ea71de89b86af845c493e72cac21d5"
+    },
+    {
+      "path": "firmware/common/epd/inktag_epd_screen.c",
+      "rule": "da-source-no-e6-v1",
+      "inputGitBlob": "20be24b7c02aaa10a317204b667dc259621a4769",
+      "inputSha256": "5c7fc5c1c9eeb1772456217b0e8ef2bf6d1b4979c9c0bda21f8972e8d1b09053",
+      "outputSha256": "e4eed3b1403a41a1c86ad10d1fbe62c367d023090c019af78ff18c166313443c"
+    },
+    {
+      "path": "firmware/common/epd/inktag_epd_screen.h",
+      "rule": "da-source-no-e6-v1",
+      "inputGitBlob": "0f1a914d6d54bc2ef00d68416e52624cc6a2ffc0",
+      "inputSha256": "760d676c637061997204337394a57f0729ecc08cb5250e975e0d686926f842b5",
+      "outputSha256": "4636d4cda6d012d58cbbad698c6c2d597404a777257dd9c7dd0586e312ec9546"
+    },
+    {
+      "path": "firmware/common/epd/inktag_epd_ssd.c",
+      "rule": "da-source-ssd-normal-v1",
+      "inputGitBlob": "0a1fc17979a5ef7474e25be3c0596231c6ef9c20",
+      "inputSha256": "76c66d6c58362415ef38288ae3f6c574c26cea9c92f52242fad982fd8d3425a0",
+      "outputSha256": "8074619e25a45b43b8c6536aca06c700df0da3b7cba6584540973ba1daf84aca"
+    },
+    {
+      "path": "firmware/common/gui/Adafruit_GFX.c",
+      "rule": "da-source-no-e6-v1",
+      "inputGitBlob": "d8468746f66c1cfe203306eb28821ddf455bf3bd",
+      "inputSha256": "d0366be0a68029fe0de7345fad1cc6bf5149deb0ff74924f99b0fc4fc55f37fe",
+      "outputSha256": "69648b2e914ad5f4a36ebea702bcf6c3e32784cadc89196af40d6fb86b9614a5"
+    },
+    {
+      "path": "firmware/common/security/inktag_brand_overlay.c",
+      "rule": "da-source-no-e6-v1",
+      "inputGitBlob": "a961d0d234813db2e9ac8e7d76b3e14d077b0e9f",
+      "inputSha256": "28319ecb28a3d971b46e4a41d24cb2cd4bda116de9dcafaae12216ead745204d",
+      "outputSha256": "f23e230a7f7b80242ed1b5b9435132f8bd88d91168febf25401209a515a73bed"
+    },
+    {
+      "path": "firmware/common/storage/inktag_settings_journal.c",
+      "rule": "da-source-storage-scope-v2",
+      "inputGitBlob": "c2049a47324cbcba73ba52b7ee1d5934a2c3465b",
+      "inputSha256": "893702a37cd8e09a96020d8d35dedc3f690a78901de07c9ac5cbc0966918fcdc",
+      "outputSha256": "820c7185bd09e892d5b5073f0a4a40086ae701a183b86f2ecbe131fdce458b79"
+    },
+    {
+      "path": "firmware/common/storage/inktag_settings_journal.h",
+      "rule": "da-source-storage-scope-v2",
+      "inputGitBlob": "0e91af1987ba95f04d2b52312e342f2dd6563ee4",
+      "inputSha256": "6acf723232487da52ec31858d350a288cc4bfe4cfd6b1e3803ac8d363ec3c494",
+      "outputSha256": "fd52a5d9ecf22903e1ef72ef2b6820086bb1ac190bacb0aab35b50058bda55d9"
+    },
+    {
+      "path": "tests/test_gui_full_frame.c",
+      "rule": "da-source-no-e6-v1",
+      "inputGitBlob": "edeceaf8c775497b73f0af8f7fac6d8c43ea949d",
+      "inputSha256": "22bb21672f7cc1dffcd878dba07cdb7a1b6c72ea297499a184785da1d50b1155",
+      "outputSha256": "2a0dd2d86cbcb46117331f45ad4144425a1824729ba90e5214f5d361609a828f"
+    },
+    {
+      "path": "tools/sdk/da_sdk_workspace.py",
+      "rule": "da-source-workspace-v1",
+      "inputGitBlob": "33212ef790c51601cea8c9f186e66d23eb0f1821",
+      "inputSha256": "44cccd3edf452383d41350f1bb930dc851b4bcae8dee59572b90e1a4e844481e",
+      "outputSha256": "bc416b2174068e35ff4adb5cff83b115a9c80d1c3ecf72dce9e9b68a5e067a48"
+    }
+  ],
+  "allowlistSha256": "74121fcda6f56d99bc665f12600767df1714dd7533116efeb1fd5e3547845c4c"
+}

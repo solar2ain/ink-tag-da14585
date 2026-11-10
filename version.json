@@ -1,0 +1,11 @@
+{
+  "version": "0.2.1",
+  "recoveryVersion": "0.2.1",
+  "webuiVersion": "1.2.0",
+  "major": 0,
+  "minor": 2,
+  "patch": 1,
+  "protocolVersion": 16,
+  "otaVersion": 201,
+  "recoveryEpoch": 1
+}

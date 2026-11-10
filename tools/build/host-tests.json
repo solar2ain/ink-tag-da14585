@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "scope": "DA host regressions with inert storage, no hardware",
+  "hostC": [
+    {
+      "id": "test_da_gui_full_frame",
+      "sources": [
+        "tests/test_gui_full_frame.c",
+        "firmware/common/gui/Adafruit_GFX.c",
+        "firmware/common/gui/u8g2_font.c",
+        "firmware/common/gui/inktag_gui_fonts.c",
+        "firmware/common/gui/inktag_gui.c",
+        "firmware/common/gui/inktag_calendar.c"
+      ],
+      "defines": [
+        "-D__HEAP_SIZE=32768",
+        "-DINKTAG_GUI_RAW_VIEWPORT=1",
+        "-DINKTAG_EPD_ENABLE_JD79665CA=0",
+        "-Ifirmware/common/protocol",
+        "-DINKTAG_DIALOG"
+      ],
+      "tags": [
+        "gui-layout",
+        "golden-frame"
+      ]
+    },
+    {
+      "id": "test_uc8xxx_compact_traces",
+      "sources": [
+        "tests/test_uc8xxx_compact_traces.c",
+        "firmware/common/epd/inktag_epd_uc.c",
+        "firmware/common/epd/inktag_epd_commands.c"
+      ],
+      "defines": [
+        "-DINKTAG_DIALOG",
+        "-Ifirmware/common/epd",
+        "-Ifirmware/common/input",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-function"
+      ],
+      "tags": [
+        "common",
+        "epd",
+        "existing-uc-recipes",
+        "compact",
+        "dialog"
+      ]
+    },
+    {
+      "id": "test_da_gui_asset_cache",
+      "sources": [
+        "tests/test_da_gui_asset_cache.c",
+        "firmware/common/protocol/inktag_protocol_core.c"
+      ],
+      "defines": [
+        "-DINKTAG_GUI_EXTERNAL_FONT_ASSETS=1",
+        "-Itests/mocks/dialog",
+        "-Itests/mocks/board-family",
+        "-Ifirmware/common/gui",
+        "-Ifirmware/common/protocol",
+        "-Ifirmware/common/epd"
+      ],
+      "tags": [
+        "gui-layout",
+        "storage",
+        "dialog",
+        "platform-contract"
+      ]
+    },
+    {
+      "id": "test_inktag_packbits",
+      "sources": [
+        "tests/test_inktag_packbits.c",
+        "firmware/common/protocol/inktag_packbits.c"
+      ],
+      "defines": [
+        "-Ifirmware/common/protocol"
+      ],
+      "tags": [
+        "protocol",
+        "compression",
+        "platform-contract"
+      ]
+    },
+    {
+      "id": "test_inktag_gui_asset_package",
+      "sources": [
+        "tests/test_inktag_gui_asset_package.c",
+        "firmware/common/gui/inktag_gui_asset_package.c",
+        "firmware/common/protocol/inktag_protocol_core.c"
+      ],
+      "defines": [
+        "-Ifirmware/common/gui",
+        "-Ifirmware/common/protocol",
+        "-Ifirmware/common/epd"
+      ],
+      "tags": [
+        "gui-layout",
+        "protocol",
+        "storage",
+        "platform-contract"
+      ]
+    },
+    {
+      "id": "test_iso_week",
+      "sources": [
+        "tests/test_iso_week.c",
+        "firmware/common/gui/inktag_calendar.c"
+      ],
+      "defines": [],
+      "tags": [
+        "gui-layout",
+        "time"
+      ]
+    },
+    {
+      "id": "test_da_brand_overlay",
+      "sources": [
+        "tests/test_inktag_brand_overlay.c",
+        "firmware/common/security/inktag_brand_overlay.c"
+      ],
+      "defines": [
+        "-Ifirmware/common/security",
+        "-Ifirmware/common/epd",
+        "-DINKTAG_PROTOCOL_FREE_ONLY_TARGET=1"
+      ],
+      "tags": [
+        "display",
+        "capabilities",
+        "mandatory-branding"
+      ]
+    },
+    {
+      "id": "test_da_image_store",
+      "sources": [
+        "tests/test_da_image_store.c",
+        "firmware/common/protocol/inktag_image_upload_v5.c",
+        "firmware/ports/dialog/common/src/inktag_da_image_store.c",
+        "firmware/common/input/inktag_resource_name.c",
+        "firmware/common/protocol/inktag_protocol_core.c"
+      ],
+      "defines": [
+        "-Itests/mocks/dialog",
+        "-Ifirmware/ports/dialog/common/src",
+        "-Ifirmware/common/epd",
+        "-Ifirmware/common/power",
+        "-Ifirmware/common/storage",
+        "-Ifirmware/common/input",
+        "-Ifirmware/common/protocol",
+        "-DINKTAG_NFC_RESOURCE_ALIAS_MAX_BYTES=35"
+      ],
+      "tags": [
+        "vendor-dialog",
+        "image-store",
+        "persistence",
+        "power"
+      ]
+    },
+    {
+      "id": "test_da_capabilities",
+      "sources": [
+        "tests/test_da_capabilities.c",
+        "firmware/common/security/inktag_access.c",
+        "firmware/common/security/inktag_image_quota.c",
+        "firmware/common/input/inktag_input.c"
+      ],
+      "defines": [
+        "-Ifirmware/common/security",
+        "-Ifirmware/common/input",
+        "-Ifirmware/common/epd",
+        "-Ifirmware/common/protocol",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-Ifirmware/common/status"
+      ],
+      "tags": [
+        "capabilities",
+        "reject",
+        "physical-capacity",
+        "random"
+      ]
+    },
+    {
+      "id": "test_da_calendar_compatibility",
+      "sources": [
+        "tests/fixtures/lunar_calendar_probe.c",
+        "firmware/common/gui/inktag_calendar.c"
+      ],
+      "defines": [
+        "-Ifirmware/common/gui",
+        "-DINKTAG_LUNAR_EXPECT_COMPATIBILITY=1",
+        "-Wall",
+        "-Wextra",
+        "-Werror"
+      ]
+    },
+    {
+      "id": "test_da_resource_name",
+      "sources": [
+        "tests/test_da_resource_name.c",
+        "firmware/common/input/inktag_resource_name.c"
+      ],
+      "defines": [
+        "-Ifirmware/common/input",
+        "-DINKTAG_NFC_RESOURCE_ALIAS_MAX_BYTES=35",
+        "-Wall",
+        "-Wextra",
+        "-Werror"
+      ],
+      "tags": [
+        "capabilities",
+        "image-name",
+        "random",
+        "nfc-codec-excluded"
+      ]
+    },
+    {
+      "id": "test_da_settings_journal",
+      "sources": [
+        "tests/test_da_settings_journal.c",
+        "firmware/common/storage/inktag_settings_journal.c"
+      ],
+      "defines": [
+        "-Ifirmware/common/storage",
+        "-Wall",
+        "-Wextra",
+        "-Werror"
+      ],
+      "tags": [
+        "capabilities",
+        "storage",
+        "power-loss",
+        "opaque-record-preservation"
+      ]
+    }
+  ]
+}

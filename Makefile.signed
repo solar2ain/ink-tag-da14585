@@ -1,0 +1,3 @@
+# Mandatory verification profile; this public entry never accesses signing keys.
+override INKTAG_DA_SIGNATURE_POLICY := required
+include tools/build/source-make.inc

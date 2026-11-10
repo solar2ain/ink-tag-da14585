@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "boards": {
+    "aesl42_da": {
+      "label": "Hema AESL-4.2",
+      "mcuFamily": "Dialog/Renesas SmartBond",
+      "mcu": "DA14585",
+      "port": "dialog/da14585",
+      "artifact": "InkTag-aesl42_da",
+      "lfclkSource": "lfxo",
+      "applicationArtifact": "InkTag-da14585_aesl",
+      "applicationTarget": "da14585_aesl",
+      "defaultScreenProfile": "UC8176_400x300_BWR_STANDARD",
+      "panel": "UC8176, 400x300, black/white/red",
+      "panelReplaceable": true,
+      "flashRequirement": "256 KiB external SPI Flash",
+      "lowFrequencyClock": {
+        "source": "lfxo",
+        "frequencyHz": 32768,
+        "assembly": "installed",
+        "qualified": false
+      },
+      "ota": {
+        "transport": "Dialog SDK6 SUOTA over BLE",
+        "layout": "single-app-with-fixed-ble-recovery-v3",
+        "application": "0x00004000-0x0001BFFF",
+        "recovery": "0x0001C000-0x00023FFF",
+        "recoveryJournal": [
+          "0x00037000",
+          "0x0003B000"
+        ],
+        "applicationLimitBytes": 95744
+      },
+      "panelWiring": {
+        "mosi": "P2.0",
+        "sclk": "P0.1",
+        "cs": "P2.1",
+        "dc": "P0.7",
+        "reset": "P1.0",
+        "busy": "P1.1",
+        "busSelect": "P2.2",
+        "powerEnable": "P2.3"
+      },
+      "led": null,
+      "button": {
+        "present": false
+      },
+      "imageStore": "0x00024000-0x00034FFF (68 KiB)",
+      "find": {
+        "supported": false
+      },
+      "auxIo": {
+        "supported": false,
+        "defaultEnabled": false,
+        "gpioMapping": null
+      },
+      "buildQualified": true,
+      "hardwareQualified": false
+    },
+    "aesl29_da": {
+      "label": "Hema AESL-2.9",
+      "mcuFamily": "Dialog/Renesas SmartBond",
+      "mcu": "DA14585",
+      "port": "dialog/da14585",
+      "artifact": "InkTag-aesl29_da",
+      "lfclkSource": "lfxo",
+      "applicationArtifact": "InkTag-da14585_aesl",
+      "applicationTarget": "da14585_aesl",
+      "defaultScreenProfile": null,
+      "panel": "E029A33N8C380 / HINK-E029A33-A0, 128x296, black/white/red",
+      "panelReplaceable": true,
+      "flashRequirement": "256 KiB external SPI Flash",
+      "lowFrequencyClock": {
+        "source": "lfxo",
+        "frequencyHz": 32768,
+        "assembly": "installed",
+        "qualified": false
+      },
+      "ota": {
+        "transport": "Dialog SDK6 SUOTA over BLE",
+        "layout": "single-app-with-fixed-ble-recovery-v3",
+        "application": "0x00004000-0x0001BFFF",
+        "recovery": "0x0001C000-0x00023FFF",
+        "recoveryJournal": [
+          "0x00037000",
+          "0x0003B000"
+        ],
+        "applicationLimitBytes": 95744
+      },
+      "panelWiring": {
+        "mosi": "P2.0",
+        "sclk": "P0.1",
+        "cs": "P2.1",
+        "dc": "P0.7",
+        "reset": "P1.0",
+        "busy": "P1.1",
+        "busSelect": "P2.2",
+        "powerEnable": "P2.3"
+      },
+      "led": null,
+      "button": {
+        "present": false
+      },
+      "imageStore": "0x00024000-0x00034FFF (68 KiB)",
+      "find": {
+        "supported": false
+      },
+      "auxIo": {
+        "supported": false,
+        "defaultEnabled": false,
+        "gpioMapping": null
+      },
+      "buildQualified": true,
+      "hardwareQualified": false
+    }
+  }
+}
